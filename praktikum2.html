@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Praktikum 2</title>
-</head>
-<body>
-    <h2>Menampilkan Gambar</h2>
+<h2>Menampilkan Gambar</h2>
+
+<p><a href="index.html">Kembali ke Menu Utama</a></p>
+
+<style>
+.galeri {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  gap: 10px;
+  align-items: center;
+}
+
+.galeri img {
+  width: 100px;
+  height: auto;
+}
+
+.link-foto {
+  grid-column: 2;
+  grid-row: 2;
+}
+</style>
+
+<div class="galeri">
     
-    <img src="55e43948d4384272e1d3cb73e5fe3282 (1).jpg" alt="Gambar Praktikum" width="300">
+    <img src="55e43948d4384272e1d3cb73e5fe3282 (1).jpg" alt="Gambar 1">
     <img src="bc7df03600d854fe37f33dc7b73d143d.jpg" alt="Gambar 2">
     <img src="7859af3b6ca13b240fd3ec7526e53a57.jpg" alt="Gambar 3">
-    <p><a href="index.html">- Kembali ke Menu Utama</a></p>
+<a class="link-foto" href="LINK_POSTINGAN_INSTAGRAM">Foto</a>
+</div>
 </body>
 </html>
